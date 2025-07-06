@@ -1,4 +1,4 @@
-1)# Sample list of strings
+# Sample list of strings
 words_list = input("w:")
 word=words_list.split()
 
@@ -16,7 +16,7 @@ print(f"Number of words that start and end with the same letter: {count}")
 
 
 
-2)word1 = "Listen"
+word1 = "Listen"
 word2 = "Silent"
 
 print(sorted(word1.lower()))  # ['e', 'i', 'l', 'n', 's', 't']
@@ -30,7 +30,7 @@ print(are_anagrams)  # True
 
 
 
-3)from collections import Counter
+from collections import Counter
 
 word1 = "Listen"
 word2 = "Silent"
